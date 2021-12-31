@@ -1,0 +1,125 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: Arial;
+}
+
+#cuerpo{
+	width: 400px;
+	height: 580px;
+	background: #25292bed;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8px;
+	padding: 20px;
+}
+
+
+.title{
+	text-align: center;
+	color: #fff;
+	padding: 8px;
+
+}
+p{
+	color: #fff;
+	padding: 8px;
+}
+
+.enviar{
+	width: 40px;
+	height: 20px;
+	color: #FFFFFF;
+	background-color: #04AA6D!important;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: Arial;
+	user-select: none;
+	border: none;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+#texto>p{
+	padding: 10px;
+}
+
+.texto__input{
+	margin-left: 4px;
+	margin-right: 4px;
+	color: #000;
+}
+
+#content__input{
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	padding: 8px;
+}
+
+#content__input>button{
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	margin-top: 4px;
+}
+
+.div__input{
+	width: 80px;
+}
+
+#resistor{
+	display: flex;
+	flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #c19b47;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.resistor__div{
+	/*background-color: #fff;*/
+	width: 50px;
+	height:30px;
+	padding: 2px;
+}
+
+.salida{
+	color: #fff;
+	text-align: center;
+	font-size: 26px;
+}
+
+footer{
+	color:brown;
+	text-align: center;
+}
+
+@media screen and (max-width:800px) {
+	#cuerpo{
+		width:80%;
+		height: 380px;
+		padding: 12px;
+		background-color:#25292bed;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 8px;
+	}
+
+	.div__input{
+		width: 60px;
+	}
+
+	.resistor__div{
+		width: 30px;
+		height:20px;
+		padding: 2px;
+    }
+
+}
